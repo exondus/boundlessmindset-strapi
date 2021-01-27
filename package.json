@@ -1,0 +1,35 @@
+{
+  "name": "boundlessmindset-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.4.5",
+    "strapi-admin": "3.4.5",
+    "strapi-utils": "3.4.5",
+    "strapi-plugin-content-type-builder": "3.4.5",
+    "strapi-plugin-content-manager": "3.4.5",
+    "strapi-plugin-users-permissions": "3.4.5",
+    "strapi-plugin-email": "3.4.5",
+    "strapi-plugin-upload": "3.4.5",
+    "strapi-connector-mongoose": "3.4.5"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "5227cb89-bfd9-4570-b3f6-a1494b1a3d6e"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
